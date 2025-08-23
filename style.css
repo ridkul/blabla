@@ -1,0 +1,70 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin:0px;
+background:url("loginpage.jpg");
+background-size:cover;
+background-position:bottom;
+}
+
+#logincontainer{
+text-align:center;
+box-shadow:0px 0px 2px 0px;
+width:200px;
+border-radius:60px 60px 60px 60px;
+color:white;
+padding-top:40px;
+background:transparent;
+backdrop-filter:blur(10px);
+}
+
+button{
+background:transparent;
+color:white;
+width:115px;
+height:30px;
+border-radius:10px 10px 10px 10px;
+padding:0px;
+backdrop-filter: blur(10px);
+border:none;
+box-shadow:0px 0px 4px 0px;
+
+}
+button:hover{
+width:115px;
+height:30px;
+transition-type: ease-in 2s;
+box-shadow:0px 0px 11px 0px;
+}
+a{
+color:red;
+text-decoration:none;
+align:center;
+}
+
+input{
+border-left:none;
+border-right:none;
+border-top:none;
+margin:20px;
+margin-left:15px;
+background:transparent;
+backdrop-filter:blur(10px);
+color:white;
+box-shadow:0px 0px 0px 0px;
+}
+
+.forget{
+margin-top:20px;
+margin-left:0px;
+}
+
+#top{
+color:white;
+}
+h4{
+color:white;
+}
+
